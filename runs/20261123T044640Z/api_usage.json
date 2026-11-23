@@ -1,0 +1,25 @@
+{
+ "claude-sonnet-5-5": {
+  "requests": 1360,
+  "tokens": {
+   "in": 1334757,
+   "cr": 14587289,
+   "cw": 4702219,
+   "out": 199392
+  },
+  "cost_usd": 17.8777,
+  "stop_reasons": {
+   "tool_use": 437,
+   "end_turn": 882,
+   "max_tokens": 41
+  },
+  "with_thinking_text": 6,
+  "ttft_s": {
+   "sample0_p50": 1.432,
+   "sample0_p90": 2.181,
+   "repeat_p50": 1.371,
+   "repeat_p90": 2.262
+  },
+  "total_s_p50": 2.058
+ }
+}

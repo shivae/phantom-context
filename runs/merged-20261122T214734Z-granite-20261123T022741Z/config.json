@@ -1,0 +1,30 @@
+{
+  "run_id": "merged-20261122T214734Z-granite-20261123T022741Z",
+  "models": [
+    "qwen2.5-1.5b",
+    "qwen2.5-7b",
+    "qwen3-8b",
+    "granite-3.3-8b"
+  ],
+  "scenarios": 60,
+  "samples": 4,
+  "lengths": [
+    4000,
+    12000,
+    24000
+  ],
+  "sys_len": 1,
+  "temperature": 0.7,
+  "max_tokens": 300,
+  "seed": 0,
+  "judge_model": "Qwen/Qwen2.5-14B-Instruct",
+  "chars_per_token": 3.4,
+  "chunk": 6,
+  "merged_from": {
+    "old": "20261122T214734Z",
+    "new": "20261123T022741Z",
+    "new_models": [
+      "granite-3.3-8b"
+    ]
+  }
+}

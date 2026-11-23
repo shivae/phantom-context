@@ -1,0 +1,36 @@
+{
+  "run_id": "20261123T044640Z",
+  "models": [
+    "claude-sonnet-5-5"
+  ],
+  "scenarios": 20,
+  "samples": 2,
+  "lengths": [
+    4000,
+    24000
+  ],
+  "sys_len": 1,
+  "temperature": 0.7,
+  "max_tokens": 300,
+  "seed": 0,
+  "judge_model": "Qwen/Qwen2.5-14B-Instruct",
+  "chars_per_token": 3.4,
+  "chunk": 6,
+  "scenario_version": 2,
+  "workers": 16,
+  "api": {
+    "claude-sonnet-5-5": {
+      "request": {
+        "thinking": {
+          "type": "between_tools"
+        },
+        "output_config": {
+          "effort": "high"
+        }
+      },
+      "summary_max_tokens": 520,
+      "sampling": "API default; temperature not settable, summaries sampled rather than greedy",
+      "max_tokens": 1024
+    }
+  }
+}
